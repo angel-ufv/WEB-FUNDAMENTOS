@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/WEB-FUNDAMENTOS/docs/CSS/contact.css">
+    <link rel="stylesheet" href="/docs/CSS/contact.css">
     <title>Contacto</title>
 </head>
 <body>
     <header role="banner">
         <img src="/docs/imagenes/logo_UFV_positivo.svg" alt="Logo del grado de Ingeniería Informática" width="100">
-        <nav role="navigation">
+        <nav role="navigation" aria-label="Menú principal">
             <ul>
                 <li><a href="../index.html">Inicio</a></li>
                 <li><a href="/docs/public/about.html">Acerca de mí</a></li>
@@ -19,27 +19,30 @@
                 <li><a href="/docs/public/fii.html">Fii</a></li>
             </ul>
         </nav>
-        <h1>Si necesitas algo, no dudes en contactarme!</h1>
+        <h1>¡Si necesitas algo, no dudes en contactarme!</h1>
     </header>
     <main>
         <section>
             <h2>Datos de contacto</h2>
-            <p>Nombre: Pepe Villaverde</p>
-            <p>Correo Electrónico: <a href="mailto:pepevillaverde@gmail.com">pepevillaverde@gmail.com</a></p>
-            <p>Teléfono: <a href="tel:+34638738229">638738229</a></p>
+            <p><strong>Nombre:</strong> Pepe Villaverde</p>
+            <p><strong>Correo Electrónico:</strong> <a href="mailto:pepevillaverde@gmail.com">pepevillaverde@gmail.com</a></p>
+            <p><strong>Teléfono:</strong> <a href="tel:+34638738229">638738229</a></p>
         </section>
         <section>
             <h2>Formulario de contacto</h2>
             <form action="procesar_contacto.php" method="POST">
-                <label for="nombre">Nombre:</label>
-                <input type="text" id="nombre" name="nombre" placeholder="Ingresa tu nombre" required>
-                
-                <label for="correo">Correo Electrónico:</label>
-                <input type="email" id="correo" name="correo" placeholder="Ingresa tu correo" required>
-                
-                <label for="mensaje">Mensaje:</label>
-                <textarea id="mensaje" name="mensaje" rows="5" placeholder="Escribe tu mensaje aquí" required></textarea>
-                
+                <div>
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" placeholder="Ingresa tu nombre" required>
+                </div>
+                <div>
+                    <label for="correo">Correo Electrónico:</label>
+                    <input type="email" id="correo" name="correo" placeholder="Ingresa tu correo" required>
+                </div>
+                <div>
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea id="mensaje" name="mensaje" rows="5" placeholder="Escribe tu mensaje aquí" required></textarea>
+                </div>
                 <button type="submit">Enviar</button>
             </form>
         </section>

@@ -55,7 +55,7 @@ main {
     margin: 0 auto;
 }
 
-.redes > li > a {
+redes > li > a {
     color: #4a90e2;
 }
 

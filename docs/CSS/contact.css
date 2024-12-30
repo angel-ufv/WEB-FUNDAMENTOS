@@ -1,6 +1,5 @@
-/* estilos.css */
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f9fafc;
@@ -8,6 +7,7 @@ body {
     line-height: 1.6;
 }
 
+/* Header */
 header {
     background-color: #4a90e2;
     color: #fff;
@@ -16,10 +16,10 @@ header {
 }
 
 header img {
-    width: 160px;  /* Establecer el ancho del logo a 160px */
-    height: auto;  /* Mantener la proporción original de la imagen */
-    display: block; /* Asegurar que la imagen no tenga espacio debajo */
-    margin: 0 auto; /* Centrar la imagen horizontalmente */
+    width: 160px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
 }
 
 header h1 {
@@ -30,25 +30,24 @@ header h1 {
 header ul {
     list-style: none;
     padding: 0;
-    margin-top: 20px;
+    margin: 20px 0 0;
     display: flex;
     justify-content: center;
-}
-
-header ul li {
-    margin: 0 15px;
+    gap: 30px;
 }
 
 header ul li a {
     text-decoration: none;
     color: white;
     font-size: 1.2rem;
+    transition: color 0.3s;
 }
 
 header ul li a:hover {
     color: #d1eaff;
 }
 
+/* Main Content */
 main {
     max-width: 800px;
     margin: 20px auto;
@@ -73,6 +72,7 @@ h2 {
 a {
     color: #4a90e2;
     text-decoration: none;
+    transition: text-decoration 0.3s;
 }
 
 a:hover {
@@ -109,12 +109,14 @@ button {
     border: none;
     cursor: pointer;
     font-weight: bold;
+    transition: background-color 0.3s;
 }
 
 button:hover {
     background-color: #357ab7;
 }
 
+/* Footer */
 footer {
     text-align: center;
     margin-top: 20px;
