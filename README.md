@@ -30,8 +30,5 @@ El desarrollo de este proyecto me ha permitido reforzar habilidades clave como:
 - La resolución efectiva de problemas relacionados con compatibilidad y estilos.  
  
 
-Además, se logró un diseño funcional y estético que cumple con los objetivos iniciales. Este proyecto puede evolucionar mediante la incorporación de nuevas características, como:  
-- Iconos personalizados en los enlaces.  
-- Una base de datos para gestionar dinámicamente las páginas de los compañeros.  
-- Funcionalidades adicionales como filtros y búsqueda.  
+
 
