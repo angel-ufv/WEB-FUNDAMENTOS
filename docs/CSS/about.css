@@ -14,8 +14,10 @@ header {
     padding: 20px 10px;
 }
 
+/* Ajuste para imágenes más pequeñas en el header */
 header img {
-    width: 160px;
+    width: 100px; /* Tamaño reducido */
+    height: auto; /* Mantiene proporción */
     margin-bottom: 15px; /* Añade espacio debajo del logo */
 }
 
@@ -53,6 +55,15 @@ main {
     padding: 20px;
     max-width: 800px;
     margin: 0 auto;
+}
+
+/* Ajuste para imágenes en el contenido */
+main img {
+    width: 100%; /* Acomoda el tamaño al contenedor */
+    max-width: 300px; /* Máximo tamaño permitido */
+    height: auto; /* Mantiene proporción */
+    display: block;
+    margin: 10px auto; /* Centra las imágenes */
 }
 
 redes > li > a {
