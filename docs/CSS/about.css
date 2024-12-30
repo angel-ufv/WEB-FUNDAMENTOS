@@ -1,3 +1,4 @@
+/* Ajustes generales */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -14,17 +15,17 @@ header {
     padding: 20px 10px;
 }
 
-/* Ajuste para imágenes más pequeñas en el header */
+/* Logo más pequeño en el header */
 header img {
-    width: 100px; /* Tamaño reducido */
+    width: 80px; /* Reduce el tamaño del logo */
     height: auto; /* Mantiene proporción */
-    margin-bottom: 15px; /* Añade espacio debajo del logo */
+    margin-bottom: 15px;
 }
 
 header ul {
     list-style: none;
     padding: 0;
-    margin: 20px 0; /* Añade espacio encima y debajo de los enlaces */
+    margin: 20px 0;
     display: flex;
     justify-content: center;
     gap: 15px;
@@ -47,25 +48,21 @@ header ul > li > a:hover {
 }
 
 header h1 {
-    margin-top: 25px; /* Espacio adicional entre los enlaces y el título */
+    margin-top: 25px;
     font-size: 2.5rem;
 }
 
-.fotos-about{
-    width: 200px;
-    height:auto;
-}
-
+/* Ajustes del contenido principal */
 main {
     padding: 20px;
     max-width: 800px;
     margin: 0 auto;
 }
 
-/* Ajuste para imágenes en el contenido */
+/* Fotos en el contenido */
 main img {
-    width: 100%; /* Acomoda el tamaño al contenedor */
-    max-width: 300px; /* Máximo tamaño permitido */
+    width: 90%; /* Escala al 90% del contenedor */
+    max-width: 200px; /* Tamaño máximo fijo */
     height: auto; /* Mantiene proporción */
     display: block;
     margin: 10px auto; /* Centra las imágenes */
