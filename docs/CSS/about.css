@@ -60,12 +60,13 @@ main {
 }
 
 /* Fotos en el contenido */
-main img {
-    width: 90%; /* Escala al 90% del contenedor */
-    max-width: 200px; /* Tamaño máximo fijo */
+.fotos-about img {
+    width: 100%; /* Escala al ancho del contenedor */
+    max-width: 200px; /* Tamaño máximo para evitar imágenes demasiado grandes */
     height: auto; /* Mantiene proporción */
-    display: block;
-    margin: 10px auto; /* Centra las imágenes */
+    display: inline-block; /* Permite colocación en fila */
+    margin: 10px auto; /* Espaciado entre las imágenes */
+    border-radius: 10px; /* Bordes redondeados opcionales */
 }
 
 redes > li > a {
